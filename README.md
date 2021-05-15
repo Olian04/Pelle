@@ -3,12 +3,12 @@
 Heavily inspired by the [theme pallet provided by material ui](https://material-ui.com/customization/palette/).
 
 ```ts
-import {Pallet, auto, green, red, black} from 'color-pallet';
+import {Pallet, green, red, black} from 'color-pallet';
 
 const pallet = new Pallet({
   primary: '#5865f2',
-  secondary: auto.primary.complementary,
-  text: auto.primary.text,
+  secondary: auto => auto.primary.complementary,
+  text: auto => auto.primary.text,
   highlight: {
     success: green[200],
     error: red[200],
