@@ -18,7 +18,7 @@ pallet.primary.text // Either white or black, for best readability
 
 Resources: 
 
-* How material ui creates their pallet: https://github.com/mui-org/material-ui/blob/5a983eadb806ba095de2a2754b208d470e3f55e7/packages/material-ui/src/styles/createPalette.js#L94
+* How material ui creates their pallet: https://github.com/mui-org/material-ui/blob/5a983eadb806ba095de2a2754b208d470e3f55e7/packages/material-ui/src/styles/createPalette.js
 * Test tool for different auto pallets: https://www.sessions.edu/color-calculator/
 
 ## Extended features (planned but no in MVP)
