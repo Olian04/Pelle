@@ -3,7 +3,7 @@
 Heavily inspired by the [theme palette provided by material ui](https://material-ui.com/customization/palette/).
 
 ```ts
-import {Palette, green, red, black} from 'color-Palette';
+import {Palette, green, red, black} from 'color-palette';
 
 const palette = new Palette({
   primary: '#5865f2',
@@ -27,7 +27,7 @@ Resources:
 ### Color Helpers
 
 ```ts
-import { Palette, green, red, blue, black, white } from 'color-pallet';
+import { Palette, green, red, blue, black, white } from 'color-palette';
 
 const palette = new Palette({
   primary: '#5865f2',
@@ -43,7 +43,7 @@ const palette = new Palette({
 ### Auto Palettes
 
 ```ts
-import { Palette } from 'color-pallet';
+import { Palette } from 'color-palette';
 
 const palette = new Palette({
   primary: '#5865f2',
@@ -67,7 +67,7 @@ palette.primary.triadic[0].text
 ### Auto Fill
 
 ```ts
-import { Palette, auto } from 'color-pallet';
+import { Palette, auto } from 'color-palette';
 
 const palette = new Palette({
   primary: '#5865f2',
