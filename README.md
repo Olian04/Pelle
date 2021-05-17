@@ -75,6 +75,6 @@ const palette = new Palette({
   text: auto.primary.text,
 });
 
-palette.primary.complementary === pallet.secondary.main
-palette.primary.text === pallet.text.main
+palette.primary.complementary === palette.secondary.main
+palette.primary.text === palette.text.main
 ```
