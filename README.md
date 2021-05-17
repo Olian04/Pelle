@@ -5,7 +5,7 @@ Heavily inspired by the [theme palette provided by material ui](https://material
 ```ts
 import { Palette } from 'color-palette';
 
-const palette = new Palette({
+const palette = Palette({
   primary: '#5865f2',
 });
 
@@ -29,7 +29,7 @@ Resources:
 ```ts
 import { Palette, green, red, blue, black, white } from 'color-palette';
 
-const palette = new Palette({
+const palette = Palette({
   primary: '#5865f2',
   highlight: {
     success: green[200],
@@ -45,7 +45,7 @@ const palette = new Palette({
 ```ts
 import { Palette } from 'color-palette';
 
-const palette = new Palette({
+const palette = Palette({
   primary: '#5865f2',
 });
 
@@ -69,7 +69,7 @@ palette.primary.triadic[0].text
 ```ts
 import { Palette, auto } from 'color-palette';
 
-const palette = new Palette({
+const palette = Palette({
   primary: '#5865f2',
   secondary: auto.primary.complementary,
   text: auto.primary.text,
