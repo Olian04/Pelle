@@ -3,7 +3,7 @@
 Heavily inspired by the [theme palette provided by material ui](https://material-ui.com/customization/palette/).
 
 ```ts
-import {Palette, green, red, black} from 'color-palette';
+import { Palette } from 'color-palette';
 
 const palette = new Palette({
   primary: '#5865f2',
