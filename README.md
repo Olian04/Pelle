@@ -27,7 +27,9 @@ Resources:
 ### Color Helpers
 
 ```ts
-import { Palette, green, red, blue, black, white } from 'color-palette';
+import { Palette } from 'color-palette';
+import { green, red, blue, black, white } from 'color-palette/color';
+import { lighten, darken } from 'color-palette/util';
 
 const palette = Palette({
   primary: '#5865f2',
@@ -37,6 +39,7 @@ const palette = Palette({
     log: blue[400],
     info: black[10],
   },
+  secondary: darken('#66ffff'),
 });
 ```
 
