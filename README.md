@@ -22,7 +22,7 @@ Resources:
 * Test tool for different auto palettes: https://www.sessions.edu/color-calculator/
 * Initial POC: [typescript playground](https://www.typescriptlang.org/play?#code/C4TwDgpgBAkgCgQwDYWMCAVCBbMSHpQC8UA3lANoDWUAlgHZQDOwATgwOYC6AXM25ygAfWIhRpMOPAWgBfAFDzQkWAGEA9knWsAygHcCAYwAWxMvKiWo2BAz4t29DgG4LVpLQ7Hg9gU9dWUAAmCKxUvo4ubpboAB4+-JGuCkrg0PDIqOgAPBhQEPEQ9EFMopkSWLj46AB8ZqTRlDQMUFQQIOoAZlAYvD3UXPmFxaUZ4uiV0oSNgQD8ZeMQuQM1M1Z8MBpaugbAJsmKhur0LFAcRRCsMlva+kamJAAUAEYITBA3rBGcAJQbn3c9g86o8GoEbHYoK93p8ADSNDxeBLQj6abTwwIhMJ8FFwxpxZFvVHbeGyH6ueRHE7AKBiLLQEi5IboEYLemTaoQGqPdBVGR8DB-NkSXJ1IirQIAeWeACsIIZgAA6IoCCBMHlSTk-RWsCBBACuhggj0euqYsKaFoAblwfsQQWDAlZFS6zRinZYBnxlBAulArcQiCQAOQOTjBqDzc70S7XNE7e6PK12vh0iRJn7uyxki2kMlQN7CnIYGoUqmnMDlQgkNPoUGNMDsGysEB8YMAYgAzJ2ACw9oJBYNZqDGTzGRHePiOj2N2jN1tQDsDzqdACsq6HjQUZLLxyYmggiq0HEelcW5PkQA)
 
-## Extended features (planned but no in MVP)
+## Extended features (planned but not in MVP)
 
 ### Color Helpers
 
