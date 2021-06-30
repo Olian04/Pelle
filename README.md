@@ -28,7 +28,7 @@ Resources:
 
 ```ts
 import { Palette } from 'color-palette';
-import { red, green, blue, black, white } from 'color-palette/color';
+import { red, green, blue, grey } from 'color-palette/color';
 import { lighten, darken } from 'color-palette/util';
 
 const palette = Palette({
@@ -37,7 +37,7 @@ const palette = Palette({
     success: green[200],
     error: red[200],
     log: blue[400],
-    info: black[10],
+    info: grey[10],
   },
   secondary: darken`#66ffff`,
 });
