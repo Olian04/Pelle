@@ -9,10 +9,10 @@ const palette = Palette({
   primary: '#5865f2',
 });
 
-palette.primary.main // #5865f2
+palette.primary.main  // #5865f2
 palette.primary.light // slightly lighter
-palette.primary.dark // slightly darker
-palette.primary.text // Either white or black, for best readability
+palette.primary.dark  // slightly darker
+palette.primary.text  // Either white or black, for best readability
 ```
 
 Resources: 
