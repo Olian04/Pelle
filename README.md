@@ -10,8 +10,8 @@ const palette = Palette({
 });
 
 palette.primary.main  // #5865f2
-palette.primary.light // slightly lighter
-palette.primary.dark  // slightly darker
+palette.primary.light // Slightly lighter than #5865f2
+palette.primary.dark  // Slightly darker than #5865f2
 palette.primary.text  // Either white or black, for best readability
 ```
 
