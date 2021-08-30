@@ -9,7 +9,6 @@ const palette = Palette({
   primary: '#5865f2',
 });
 
-// Colors (eagerly computed)
 palette.primary.main // #5865f2
 palette.primary.light // slightly lighter
 palette.primary.dark // slightly darker
