@@ -28,8 +28,8 @@ Resources:
 
 ```ts
 import { Palette } from 'color-palette';
-import { red, green, blue, grey } from 'color-palette/color';
-import { lighten, darken } from 'color-palette/util';
+import { red, green, blue, grey, white } from 'color-palette/color';
+import { lighten, darken, lerp } from 'color-palette/util';
 
 const palette = Palette({
   primary: '#5865f2',
@@ -40,6 +40,7 @@ const palette = Palette({
     info: grey[10],
   },
   secondary: darken(`#66ffff`),
+  tertiary: lerp(red[200], white, 0.7),
 });
 ```
 
