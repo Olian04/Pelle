@@ -26,9 +26,11 @@ Resources:
 ### Color Helpers
 
 ```ts
-import { Palette } from 'color-palette';
-import { red, green, blue, grey, white } from 'color-palette/color';
-import { lighten, darken, mix, complement } from 'color-palette/util';
+import { 
+  Palette,
+  red, green, blue, grey, white,
+  lighten, darken, mix, complement,
+} from 'color-palette';
 
 const palette = Palette({
   primary: '#5865f2',
