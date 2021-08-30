@@ -39,7 +39,7 @@ const palette = Palette({
     log: blue[400],
     info: grey[10],
   },
-  secondary: darken`#66ffff`,
+  secondary: darken(`#66ffff`),
 });
 ```
 
