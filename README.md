@@ -1,9 +1,9 @@
-# color-palette
+# Pelle
 
 Heavily inspired by the [theme palette provided by material ui](https://material-ui.com/customization/palette/).
 
 ```ts
-import { Palette } from 'color-palette';
+import { Palette } from 'pelle';
 
 const palette = Palette({
   primary: '#5865f2',
@@ -30,7 +30,7 @@ import {
   Palette,
   red, green, blue, grey, white,
   lighten, darken, mix, complement,
-} from 'color-palette';
+} from 'pelle';
 
 const palette = Palette({
   primary: '#5865f2',
