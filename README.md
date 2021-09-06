@@ -29,10 +29,8 @@ Resources:
 
 ```ts
 import { Palette } from 'pelle';
-import {
-  red, green, blue, grey, white,
-  lighten, darken, mix, complement,
-} from 'pelle/util';
+import { red, green, blue, grey, white } from 'pelle/color';
+import { lighten, darken, mix, complement } from 'pelle/util';
 
 const palette = Palette({
   primary: '#5865f2',
