@@ -28,11 +28,11 @@ Resources:
 ### Color Helpers
 
 ```ts
-import { 
-  Palette,
+import { Palette } from 'pelle';
+import {
   red, green, blue, grey, white,
   lighten, darken, mix, complement,
-} from 'pelle';
+} from 'pelle/util';
 
 const palette = Palette({
   primary: '#5865f2',
