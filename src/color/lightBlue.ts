@@ -1,4 +1,6 @@
-export const lightBlue = {
+import { ColorMap } from '../types/ColorMap';
+
+export const lightBlue: ColorMap = {
   50: '#e1f5fe',
   100: '#b3e5fc',
   200: '#81d4fa',

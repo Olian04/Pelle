@@ -1,4 +1,6 @@
-export const blueGrey = {
+import { ColorMap } from '../types/ColorMap';
+
+export const blueGrey: ColorMap = {
   50: '#eceff1',
   100: '#cfd8dc',
   200: '#b0bec5',

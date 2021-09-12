@@ -1,4 +1,5 @@
 import { common } from '../color/common';
+import { ColorString } from '../types/ColorString';
 import { clamp } from './clamp';
 import { decomposeColor } from './decomposeColor';
 import { getLuminance } from './luminance';
@@ -30,9 +31,9 @@ export function alpha(color: string, value: number): string {
 }
 
 export const getContrastText = (
-  background: string,
+  background: ColorString,
   contrastThreshold = 3
-): string => {
+) => {
   const contrastText =
     getContrastRatio(background, common.white) >= contrastThreshold
       ? common.white

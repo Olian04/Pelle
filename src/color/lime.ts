@@ -1,4 +1,6 @@
-export const lime = {
+import { ColorMap } from '../types/ColorMap';
+
+export const lime: ColorMap = {
   50: '#f9fbe7',
   100: '#f0f4c3',
   200: '#e6ee9c',

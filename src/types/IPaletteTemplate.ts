@@ -1,5 +1,5 @@
-import { TemplateValue } from './TemplateValue';
+import { ColorString } from './ColorString';
 
 export type IPaletteTemplate = {
-  [k in string]: TemplateValue | IPaletteTemplate;
+  [k in string]: ColorString | IPaletteTemplate;
 };

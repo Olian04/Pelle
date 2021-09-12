@@ -1,4 +1,6 @@
-export const deepOrange = {
+import { ColorMap } from '../types/ColorMap';
+
+export const deepOrange: ColorMap = {
   50: '#fbe9e7',
   100: '#ffccbc',
   200: '#ffab91',

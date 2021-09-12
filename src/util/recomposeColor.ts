@@ -1,6 +1,7 @@
 import { DecomposedColor } from '../types/DecomposedColor';
+import { ColorString } from '../types/ColorString';
 
-export const recomposeColor = (color: DecomposedColor): string => {
+export const recomposeColor = (color: DecomposedColor): ColorString => {
   const { type, colorSpace } = color;
   let values = color.values as (number | string)[];
 
@@ -12,8 +13,8 @@ export const recomposeColor = (color: DecomposedColor): string => {
     values[2] = `${values[2]}%`;
   }
   if (type.indexOf('color') !== -1) {
-    return `${type}(${colorSpace} ${values.join(' ')})`;
+    return `${type}(${colorSpace} ${values.join(' ')})` as ColorString;
   } else {
-    return `${type}(${values.join(', ')})`;
+    return `${type}(${values.join(', ')})` as ColorString;
   }
 };

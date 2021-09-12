@@ -1,5 +1,6 @@
 export { Palette } from './defaultPaletteConstructor';
 export { createPaletteConstructor } from './createPaletteConstructor';
+export { ColorString } from './types/ColorString';
 
-export * from './color/api';
-export * from './util/api';
+export * as Color from './color/api';
+export * as Util from './util/api';

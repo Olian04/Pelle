@@ -1,4 +1,6 @@
-export const pink = {
+import { ColorMap } from '../types/ColorMap';
+
+export const pink: ColorMap = {
   50: '#fce4ec',
   100: '#f8bbd0',
   200: '#f48fb1',
@@ -14,4 +16,3 @@ export const pink = {
   A400: '#f50057',
   A700: '#c51162',
 };
-

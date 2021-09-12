@@ -1,4 +1,6 @@
-export const red = {
+import { ColorMap } from '../types/ColorMap';
+
+export const red: ColorMap = {
   50: '#ffebee',
   100: '#ffcdd2',
   200: '#ef9a9a',
@@ -14,4 +16,3 @@ export const red = {
   A400: '#ff1744',
   A700: '#d50000',
 };
-

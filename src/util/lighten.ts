@@ -1,8 +1,9 @@
+import { ColorString } from '../types/ColorString';
 import { clamp } from './clamp';
 import { decomposeColor } from './decomposeColor';
 import { recomposeColor } from './recomposeColor';
 
-export const lighten = (color: string, coefficient: number = 0.15): string => {
+export const lighten = (color: ColorString, coefficient: number = 0.15) => {
   const decomposedColor = decomposeColor(color);
   coefficient = clamp(coefficient);
 
