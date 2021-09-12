@@ -1,0 +1,35 @@
+{
+  "name": "pelle",
+  "version": "1.0.0",
+  "description": "A theme palette heavily inspired by the theme palette provided by material ui.",
+  "main": "./dist/api.js",
+  "types": "./dist/api.d.ts",
+  "scripts": {
+    "test": "mocha  --recursive -r ts-node/register 'tests/**/*.test.ts' ",
+    "build": "npx rimraf ./dist && tsc",
+    "prepublishOnly": "npm run test && npm run build"
+  },
+  "directories": {
+    "test": "tests",
+    "lib": "dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olian04/Pelle.git"
+  },
+  "author": "Olian04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Olian04/Pelle/issues"
+  },
+  "homepage": "https://github.com/Olian04/Pelle#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.21",
+    "@types/mocha": "^9.0.0",
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3",
+    "ts-node": "^10.1.0",
+    "@types/typescript": "^2.0.0",
+    "typescript": "^4.4.3"
+  }
+}
