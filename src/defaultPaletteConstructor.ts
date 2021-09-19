@@ -8,4 +8,4 @@ export const defaultColorSwatchTemplate: IColorSwatchTemplate = {
   dark: darken,
   text: contrastText,
 };
-export const Palette = createPaletteConstructor(defaultColorSwatchTemplate);
+export const defaultPaletteConstructor = createPaletteConstructor(defaultColorSwatchTemplate);

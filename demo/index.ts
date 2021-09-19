@@ -1,15 +1,5 @@
 import { Palette, Color, Util } from '..';
-
-const palette1 = Palette({
-  primary: '#3344dd',
-  test: 'rgb(1, 321, 54)',
-  highlight: {
-    primary: '#ddff55',
-    secondary: '#55ddff',
-  },
-});
-
-const palette2 = Palette({
+const palette = Palette({
   primary: '#5865f2',
   highlight: {
     success: Color.green[200],

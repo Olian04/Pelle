@@ -1,4 +1,4 @@
-export { Palette } from './defaultPaletteConstructor';
+export { defaultPaletteConstructor as Palette } from './defaultPaletteConstructor';
 export { createPaletteConstructor } from './createPaletteConstructor';
 export { ColorString } from './types/ColorString';
 
