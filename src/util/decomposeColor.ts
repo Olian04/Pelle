@@ -22,7 +22,9 @@ export const decomposeColor = (color: string): DecomposedColor => {
     );
   }
 
-  let values: string[] = color.substring(marker + 1, color.length - 1).split(',');
+  let values: string[] = color
+    .substring(marker + 1, color.length - 1)
+    .split(',');
 
   const valueNumberArr = values.map((value) => parseFloat(value));
 
