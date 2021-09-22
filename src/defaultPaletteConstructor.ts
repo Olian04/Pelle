@@ -1,9 +1,11 @@
+import { ColorString } from './api';
 import { createPaletteConstructor } from './createPaletteConstructor';
-import { IColorSwatchTemplate } from './types/IColorSwatchTemplate';
 import { lighten, darken, contrastText } from './util/api';
 
-export const defaultColorSwatchTemplate: IColorSwatchTemplate = {
-  main: (_) => _,
+// NOTE: Do not use "defaultColorSwatchTemplate: IColorSwatchTemplate"
+// as it ruins the type inferens of palettes constructed using "defaultPaletteConstructor"
+export const defaultColorSwatchTemplate = {
+  main: (_: ColorString) => _,
   light: lighten,
   dark: darken,
   text: contrastText,
