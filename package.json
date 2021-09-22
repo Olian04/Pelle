@@ -1,13 +1,12 @@
 {
   "name": "pelle",
-  "version": "0.3.0",
+  "version": "0.5.0",
   "description": "A theme palette heavily inspired by the theme palette provided by material ui.",
   "main": "./dist/api.js",
   "types": "./dist/api.d.ts",
   "scripts": {
     "test": "mocha  --recursive -r ts-node/register 'tests/**/*.test.ts' ",
-    "build": "npx rimraf ./dist && tsc",
-    "prepublishOnly": "npm run test && npm run build"
+    "build": "npx rimraf ./dist && tsc"
   },
   "directories": {
     "test": "tests",
