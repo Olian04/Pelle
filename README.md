@@ -20,6 +20,7 @@ palette.primary.text  // Either white or black, for best readability
 Resources:
 
 * How material ui creates their palette: <https://github.com/mui-org/material-ui/blob/5a983eadb806ba095de2a2754b208d470e3f55e7/packages/material-ui/src/styles/createPalette.js>
+* Maybe reimplement meterial ui palette logic using [color.js](https://colorjs.io/)
 * Test tool for different auto palettes: <https://www.sessions.edu/color-calculator/>
 * Procedural color generation: https://sighack.com/post/procedural-color-algorithms-color-variations
 * Initial POC:
