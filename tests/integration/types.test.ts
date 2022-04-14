@@ -1,7 +1,6 @@
 import { describe, it } from 'mocha';
-import { assert } from 'chai';
 
-import { Palette } from '../../src/api';
+import { Palette } from '../../src/exports/api';
 
 const AssertType = <Origin, Target extends Origin>() => true;
 

@@ -1,5 +1,5 @@
-import { DecomposedColor } from '../types/DecomposedColor';
-import { ColorString } from '../types/ColorString';
+import { DecomposedColor } from '../../types/DecomposedColor';
+import { ColorString } from '../../types/ColorString';
 
 export const recomposeColor = (color: DecomposedColor): ColorString => {
   const { type } = color;

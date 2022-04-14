@@ -1,4 +1,4 @@
-import { hslToRgb } from './convert';
+import { hslToRgb } from '../convert/hslToRgb';
 import { decomposeColor } from './decomposeColor';
 
 export const getLuminance = (color: string): number => {

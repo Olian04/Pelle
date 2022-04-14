@@ -1,5 +1,5 @@
-import { ColorString } from '../types/ColorString';
-import { clamp } from './clamp';
+import { ColorString } from '../../types/ColorString';
+import { clamp } from '../clamp';
 import { decomposeColor } from './decomposeColor';
 import { recomposeColor } from './recomposeColor';
 

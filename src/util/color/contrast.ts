@@ -1,6 +1,6 @@
-import { common } from '../color/common';
-import { ColorString } from '../types/ColorString';
-import { clamp } from './clamp';
+import { common } from '../../color/common';
+import { ColorString } from '../../types/ColorString';
+import { clamp } from '../clamp';
 import { decomposeColor } from './decomposeColor';
 import { getLuminance } from './luminance';
 import { recomposeColor } from './recomposeColor';

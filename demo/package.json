@@ -1,0 +1,9 @@
+{
+  "name": "demo",
+  "private": true,
+  "scripts": {
+    "demo": "npx ts-node index.ts",
+    "link": "npm link ..",
+    "start": "npm run link && npm run demo"
+  }
+}

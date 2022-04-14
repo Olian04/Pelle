@@ -1,5 +1,5 @@
-import { DecomposedColor } from '../types/DecomposedColor';
-import { hexToRgb } from './convert';
+import { DecomposedColor } from '../../types/DecomposedColor';
+import { hexToRgb } from '../convert/hexToRgb';
 
 export const decomposeColor = (color: string): DecomposedColor => {
   // Idempotent

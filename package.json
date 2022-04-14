@@ -1,16 +1,29 @@
 {
   "name": "pelle",
-  "version": "0.5.0",
+  "version": "0.7.0",
   "description": "A theme palette heavily inspired by the theme palette provided by material ui.",
-  "main": "./dist/api.js",
-  "types": "./dist/api.d.ts",
-  "scripts": {
-    "test": "mocha  --recursive -r ts-node/register 'tests/**/*.test.ts' ",
-    "build": "npx rimraf ./dist && tsc"
+  "types": "./dist/exports/api.d.ts",
+  "exports": {
+    ".": "./dist/exports/api.js",
+    "./color": "./dist/exports/color.js",
+    "./util": "./dist/exports/util.js"
   },
-  "directories": {
-    "test": "tests",
-    "lib": "dist"
+  "typesVersions": {
+    "*": {
+      "color": [
+        "dist/exports/color.d.ts"
+      ],
+      "util": [
+        "dist/exports/util.d.ts"
+      ]
+    }
+  },
+  "scripts": {
+    "demo": "cd demo && npm start",
+    "test": "mocha  --recursive -r ts-node/register 'tests/**/*.test.ts' ",
+    "build:node": "npx rimraf ./dist && tsc",
+    "build:web": "npx rimraf ./cdn && rollup --config",
+    "build": "npm run build:node && npm run build:web"
   },
   "repository": {
     "type": "git",
@@ -25,10 +38,19 @@
   "devDependencies": {
     "@types/chai": "^4.2.21",
     "@types/mocha": "^9.0.0",
+    "@types/rimraf": "^3.0.2",
+    "@types/rollup": "^0.54.0",
+    "@types/rollup-plugin-commonjs": "^9.3.1",
+    "@types/rollup-plugin-node-resolve": "^4.1.0",
     "chai": "^4.3.4",
     "mocha": "^9.0.3",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.70.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript": "^1.0.1",
     "ts-node": "^10.1.0",
-    "@types/typescript": "^2.0.0",
-    "typescript": "^4.4.3"
+    "typescript": "^4.6.3"
   }
 }

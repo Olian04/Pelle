@@ -3,10 +3,6 @@ import { expect } from 'chai';
 
 import { generateColorSwatch } from '../../src/generateColorSwatch';
 import { defaultColorSwatchTemplate } from '../../src/defaultPaletteConstructor';
-import { ColorString } from '../../src/types/ColorString';
-import { darken } from '../../src/util/darken';
-import { lighten } from '../../src/util/lighten';
-import { getContrastText } from '../../src/util/contrast';
 
 describe('generateColorSwatch', () => {
   it('#nnn', () => {
@@ -78,12 +74,12 @@ describe('generateColorSwatch', () => {
     const colorMain = 'hsla(190, 100%, 60%, 1)';
     const colorLight = 'hsla(190, 100%, 66%, 1)';
     const colorDark = 'hsla(190, 100%, 51%, 1)';
-    const colorText = '#fff'; // TODO: Figure out why this one ends up as white, when all other end up as black
+    const colorText = '#fff';
     const A = generateColorSwatch(defaultColorSwatchTemplate, colorMain);
 
     expect(A.main).to.equal(colorMain);
     expect(A.dark).to.equal(colorDark);
     expect(A.light).to.equal(colorLight);
-    expect(A.text).to.equal(colorText);
+    expect(A.text).to.equal(colorText); // TODO: Figure out why this one ends up as white, when all other end up as black
   });
 });

@@ -1,4 +1,4 @@
-import { ColorString } from '../types/ColorString';
+import { ColorString } from '../../types/ColorString';
 import { darken } from './darken';
 import { lighten } from './lighten';
 import { getLuminance } from './luminance';
