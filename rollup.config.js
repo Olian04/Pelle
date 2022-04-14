@@ -17,7 +17,7 @@ export default defineConfig([
     output: {
       file: './cdn/pelle.js',
       format: 'iife',
-      name: 'Pelle'
+      name: 'pelle'
     },
     plugins,
   },
