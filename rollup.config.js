@@ -13,7 +13,7 @@ const plugins = [
 
 export default defineConfig([
   {
-    input: './src/exports/api.ts',
+    input: './src/exports/cdn.ts',
     output: {
       file: './cdn/pelle.js',
       format: 'iife',
@@ -21,22 +21,4 @@ export default defineConfig([
     },
     plugins,
   },
-  {
-    input: './src/exports/util.ts',
-    output: {
-      file: './cdn/util.js',
-      format: 'iife',
-      name: 'Util'
-    },
-    plugins,
-  },
-  {
-    input: './src/exports/color.ts',
-    output: {
-      file: './cdn/color.js',
-      format: 'iife',
-      name: 'Color'
-    },
-    plugins,
-  }
 ]);

@@ -1,6 +1,6 @@
 {
   "name": "pelle",
-  "version": "0.7.1",
+  "version": "0.8.0",
   "description": "A theme palette heavily inspired by the theme palette provided by material ui.",
   "types": "./dist/exports/api.d.ts",
   "exports": {

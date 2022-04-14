@@ -7,27 +7,28 @@
 
 Heavily inspired by the [theme palette provided by material ui](https://material-ui.com/customization/palette/).
 
-# Installation
+## Installation
 
 __NPM:__
 
 [`npm install pelle`](https://www.npmjs.com/package/pelle)
 
+```ts
+import { Palette } from 'pelle';
+import * as Color from 'pelle/color';
+import * as Util from 'pelle/util';
+```
+
 __CDN:__
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/pelle/cdn/pelle.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/pelle/cdn/color.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/pelle/cdn/util.js"></script>
 <script>
-  const { Palette } = pelle;
-
-  const palette = Palette({
-    primary: Color.blueGrey[200],
-    secondary: Util.emphasize(Color.blueGrey[200]),
-  });
+  const { Palette, Util, Color } = pelle;
 </script>
 ```
+
+## Usage
 
 ```ts
 import { Palette } from 'pelle';
