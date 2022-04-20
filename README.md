@@ -1,4 +1,6 @@
 [![NPM Version](https://img.shields.io/npm/v/pelle.svg?logo=npm)](https://www.npmjs.com/package/pelle)
+![Supported Types](https://img.shields.io/npm/types/pelle.svg)
+[![NPM Downloads](https://img.shields.io/npm/dt/pelle.svg)](https://www.npmjs.com/package/pelle)
 [![Size](https://img.shields.io/bundlephobia/minzip/pelle)](https://bundlephobia.com/result?p=pelle)
 ![Available types](https://img.shields.io/npm/types/pelle.svg)
 [![License](https://img.shields.io/npm/l/pelle.svg)](LICENSE)
