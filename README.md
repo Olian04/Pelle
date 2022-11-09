@@ -80,6 +80,6 @@ const palette = Palette({
 
 __Dev resources:__
 
-* Maybe reimplement meterial ui palette logic using [color.js](https://colorjs.io/) _(currently no typescript support)_
+* Maybe reimplement meterial ui palette logic using [color.js](https://colorjs.io/) _~(currently no typescript support)~_
 * Test tool for different auto palettes: <https://www.sessions.edu/color-calculator/>
 * Procedural color generation: <https://sighack.com/post/procedural-color-algorithms-color-variations>
